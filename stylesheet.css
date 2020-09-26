@@ -1,0 +1,18 @@
+body,h2 {
+  margin: 100px;
+  color: #1f1f2e;
+  background-color: #e0e0eb;
+  font-size: 60px;
+  font-weight: 200px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation-name: game;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes game {
+  0%   {background-color:#e6f2ff; left:0px; top:0px;}
+  25%  {background-color:#cce6ff; left:200px; top:0px;}
+  50%  {background-color:#e6e6ff; left:200px; top:200px;}
+  75%  {background-color:#ffe6ff; left:0px; top:200px;}
+  100% {background-color:#ffcccc; left:0px; top:0px;}
+}
